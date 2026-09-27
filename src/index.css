@@ -7,9 +7,7 @@
  * Retheme the whole export by editing the :root values below.
  */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@100..900&family=Fira+Code:wght@300..700&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 
 @theme inline {
@@ -83,36 +81,36 @@
 :root {
   --background: #f8fafc;
   --foreground: #0f172a;
-  --primary: #0e7490;
+  --primary: #0f172a;
   --primary-foreground: #ffffff;
   --secondary: #f1f5f9;
   --secondary-foreground: #0f172a;
   --tertiary: #f59e0b;
   --muted: #f1f5f9;
   --muted-foreground: #627188;
-  --accent: #D3E5EB;
+  --accent: #D3D6DA;
   --accent-foreground: #0f172a;
   --card: #ffffff;
   --card-foreground: #0f172a;
   --destructive: #ef4444;
   --border: #e2e8f0;
-  --input: #ffffff;
-  --ring: #0e7490;
+  --input: #e2e8f0;
+  --ring: #0f172a;
   --radius: 0.75rem;
-  --font-sans: Cairo, sans-serif;
-  --font-heading: Cairo, sans-serif;
+  --font-sans: Inter, system-ui, sans-serif;
+  --font-heading: Inter, system-ui, sans-serif;
   --font-mono: JetBrains Mono, monospace;
   --shadow-offset-x: 0;
   --shadow-offset-y: 10;
   --shadow-blur: 30;
   --shadow-spread: -8;
   --shadow-color: rgba(15, 23, 42, 0.12);
-  --tertiary-foreground: #0F172A;
+  --tertiary-foreground: #0f172a;
   --destructive-foreground: #0F172A;
-  --primary-text: #0E7490;
+  --primary-text: #0F172A;
   --secondary-text: #707477;
   --tertiary-text: #B05E00;
-  --accent-text: #66767C;
+  --accent-text: #717377;
   --destructive-text: #DB2E34;
 }
 
